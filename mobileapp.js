@@ -1,7 +1,6 @@
-const bar= document.querySelector(".bar");
-const navlink= document.querySelector('.nav-link');
+const bar= document.querySelector('.bar');
+const navLink = document.querySelector('.nav-link');
 
-
-bar.addEventListner('click', () => {
-navlink.classList.toggle('hide');
-}); 
+bar.addEventListener('click', () => {
+  navLink.classList.toggle('nav-link');
+});
