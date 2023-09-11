@@ -96,7 +96,14 @@ body{
     gap: 40px;
     align-items: center;
     display: flex;
+    position: static;
+     
 }
+.conatainer .nav-link li {
+    display: inline-block;
+    padding: 15px 20px;
+  }
+
 
 
 .nav-2 a{
@@ -197,18 +204,45 @@ top: 5px;
     margin-bottom: 1rem;
 }
 
-.nav-2 .nav-link{   
-    position: fixed;
+/* .nav-2 .nav-link{   
+    /* position: fixed;
     display: none;
-    top:5rem;
-}
+    width: 94%;
+    top: 5rem;
+    left: 18px;
+    background-color: lightblue;
+} */
 
 .nav-2 .container i{
     display: block;
     padding-left: 10px;
 }
 
+ .nav-2 .nav-link {
+    position: fixed;
+    width: 94%;
+    top: 7rem;
+    left: 18px;
+    background-color: lightblue;
+    display: block;
+  }
+  
+ .nav-2  .nav-ink li {
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  .nav-2 .nav-link a:hover {
+    background-color: lightcoral;
+  }
+  
+   .nav-2 .hide {
+    display: none;
+  }
+
 }
+
 
 header{
     display: flex;
