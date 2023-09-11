@@ -82,6 +82,7 @@ body{
      position: fixed; 
     z-index: 5;
     background-color: whitesmoke;
+    align-items: center;
 }
 
 .container{
