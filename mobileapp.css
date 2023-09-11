@@ -200,13 +200,15 @@ top: 5px;
 .nav-2 .nav-link{   
     position: fixed;
     display: none;
-    top:5rem;
 }
+
+
 
 .nav-2 .container i{
     display: block;
     padding-left: 10px;
 }
+
 
 }
 
