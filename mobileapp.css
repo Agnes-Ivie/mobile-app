@@ -42,6 +42,7 @@ body{
     margin-left: 5px;
     margin-right: 5px;
     margin-top: 10px;
+    
 }
 
 .nav-1 .nav-menu button{
@@ -82,6 +83,7 @@ body{
      position: fixed; 
     z-index: 5;
     background-color: whitesmoke;
+    align-items: center;
 }
 
 .container{
@@ -90,8 +92,9 @@ body{
     gap: 50px;
 }
 
-.container .nav-menu{
+.container .nav-link{
     gap: 40px;
+    align-items: center;
 }
 
 .nav-2 a{
@@ -100,14 +103,15 @@ body{
 }
 
 .nav-2 button{
-    height: 40px;
+    /* height: 40px; */
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 18px;
     padding-right: 18px;
     background-color: transparent;
     border: 2px solid red;
-    border-radius: 18px;   
+    border-radius: 18px;  
+    margin-bottom: 1rem; 
 }
 
 .nav-2 button a{
@@ -122,6 +126,7 @@ body{
 .nav-2 i{
     display: none;
 }
+
 
 
 
@@ -142,6 +147,7 @@ body{
    }
     .nav-1 .nav-container .nav-menu i{
          display: none;
+         
     }
  
 .nav-container  .img{
@@ -180,16 +186,24 @@ top: 5px;
 
 .nav-2{
     padding-top: 14%;
-    padding-left: 40%;
+    padding-left: 0;
 }
 
-.nav-2 .nav-menu{
-    display: none;
+.container{
+    justify-content: space-around;
+    margin-bottom: 1rem;
+}
+
+.nav-2 .nav-link{
+    position:fixed
 }
 
 .nav-2 .container i{
-    display: contents;
+    display: block;
     padding-left: 10px;
+}
+.hide{
+    display:none
 }
 
 }
@@ -204,6 +218,8 @@ header{
 
 .header-container{
     padding-top: 180px;
+    margin: 2rem auto;
+    width: 90%;
 }
 
 .header-container h1{
